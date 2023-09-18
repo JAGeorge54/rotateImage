@@ -1,13 +1,14 @@
-.matrix {
+div {
     display: grid;
-    grid-template-columns: repeat(3, 60px);
-    grid-template-rows: repeat(3, 60px);
-    grid-gap: 10px;
+    grid-template-columns: 75px 75px 75px;
+    grid-template-rows: 75px 75px 75px;
+    gap: 10px;
   }
   .box {
     background-color: #444;
     color: #fff;
     border-radius: 5px;
-    padding: 25px;
+    padding: 25px 0;
+    text-align: center;
     font-size: 150%;
   }
