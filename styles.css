@@ -2,13 +2,21 @@ div {
     display: grid;
     grid-template-columns: 75px 75px 75px;
     grid-template-rows: 75px 75px 75px;
-    gap: 10px;
+    gap: 1em;
+    padding: 25px 35px;
   }
   .box {
     background-color: #444;
     color: #fff;
+    
+  }
+  .button {
+    background-color: gray;
     border-radius: 5px;
-    padding: 25px 0;
-    text-align: center;
-    font-size: 150%;
+    color: black;
+    margin-left: 37px;
+
+  }
+  .button:hover {
+    background-color: #444;
   }
